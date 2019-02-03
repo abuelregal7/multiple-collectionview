@@ -14,6 +14,8 @@
 		83D6B55721A19D2C00F13C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D6B55521A19D2C00F13C25 /* LaunchScreen.storyboard */; };
 		83D6B56221A19D2C00F13C25 /* multiple_collectionviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6B56121A19D2C00F13C25 /* multiple_collectionviewTests.swift */; };
 		83D6B56D21A19D2C00F13C25 /* multiple_collectionviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6B56C21A19D2C00F13C25 /* multiple_collectionviewUITests.swift */; };
+		83D6B57E21A19EF900F13C25 /* image1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6B57D21A19EF900F13C25 /* image1CollectionViewCell.swift */; };
+		83D6B58021A19F1400F13C25 /* image2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6B57F21A19F1400F13C25 /* image2CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		83D6B56821A19D2C00F13C25 /* multiple collectionviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multiple collectionviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D6B56C21A19D2C00F13C25 /* multiple_collectionviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiple_collectionviewUITests.swift; sourceTree = "<group>"; };
 		83D6B56E21A19D2C00F13C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D6B57D21A19EF900F13C25 /* image1CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = image1CollectionViewCell.swift; sourceTree = "<group>"; };
+		83D6B57F21A19F1400F13C25 /* image2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = image2CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		83D6B54B21A19D2B00F13C25 /* multiple collectionview */ = {
 			isa = PBXGroup;
 			children = (
+				83D6B57C21A19E5B00F13C25 /* controller */,
+				83D6B57B21A19E5200F13C25 /* view */,
+				83D6B57A21A19E3D00F13C25 /* model */,
 				83D6B54C21A19D2B00F13C25 /* AppDelegate.swift */,
-				83D6B54E21A19D2B00F13C25 /* ViewController.swift */,
 				83D6B55021A19D2B00F13C25 /* Main.storyboard */,
 				83D6B55321A19D2C00F13C25 /* Assets.xcassets */,
 				83D6B55521A19D2C00F13C25 /* LaunchScreen.storyboard */,
@@ -123,6 +129,30 @@
 				83D6B56E21A19D2C00F13C25 /* Info.plist */,
 			);
 			path = "multiple collectionviewUITests";
+			sourceTree = "<group>";
+		};
+		83D6B57A21A19E3D00F13C25 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		83D6B57B21A19E5200F13C25 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				83D6B57D21A19EF900F13C25 /* image1CollectionViewCell.swift */,
+				83D6B57F21A19F1400F13C25 /* image2CollectionViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		83D6B57C21A19E5B00F13C25 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				83D6B54E21A19D2B00F13C25 /* ViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D6B54F21A19D2B00F13C25 /* ViewController.swift in Sources */,
+				83D6B58021A19F1400F13C25 /* image2CollectionViewCell.swift in Sources */,
+				83D6B57E21A19EF900F13C25 /* image1CollectionViewCell.swift in Sources */,
 				83D6B54D21A19D2B00F13C25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
